@@ -1,0 +1,79 @@
+/* Topo Saúde */
+
+#topo-saude{
+    background-image: url(../img/saude.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: -0.5em;
+    height: 350px;
+    
+}
+#topo-saude .container .row{
+    height: 350px;  
+}
+.bkg{
+    background-color: rgba(0, 0, 0, .3);
+}
+
+/* Notícias Principais */
+
+#noticias-principais-saude{
+    height: 400px;
+}
+#noticias-principais-saude .img-fluid{
+    height: 350px;
+    width: 100%;
+}
+.carousel-caption{
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, .5);
+    background-size: cover;
+    padding-top: 12px;
+    padding-bottom: 4px;
+    
+}
+.texto-visualizados{
+    font-size: 23px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #66bbcd;
+}
+
+/* Artigos e Notícias Internas */
+.img-noticia{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+}
+.img-noticia1{
+    background-image: url(../img/img-saude/img-noticia1/sono.jpg);
+    background-position-y: -4.5em;
+}
+.img-noticia2{
+    background-image: url(../img/img-saude/img-noticia2/formigamento.jpg);
+    background-position-y: -7.5em;
+}
+.img-noticia3{
+    background-image: url(../img/img-saude/img-noticia3/alergia.jpg);
+    background-position-y: -4.5em;
+}
+.img-noticia4{
+    background-image: url(../img/img-saude/img-noticia4/dengue.jpg);
+    background-position-y: -9.5em;
+}
+.img-noticia5{
+    background-image: url(../img/img-saude/img-noticia5/idosos-felizes.jpg);
+    background-position-y: -5.5em;
+}
+.img-noticia6{
+    background-image: url(../img/img-saude/img-noticia6/dor-cabeca.jpg);
+    background-position-y: -3.5em
+}
+.img-noticia7{
+    background-image: url(../img/img-saude/img-noticia7/beber-agua.jpg);
+    background-position-y: -7.5em;
+}
+.img-noticia8{
+    background-image: url(../img/img-saude/img-noticia8/sorriso.jpg);
+    background-position-y: -3.5em;
+}

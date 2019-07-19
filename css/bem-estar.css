@@ -1,0 +1,77 @@
+/* Topo Beem-Estar */
+
+#topo-bem-estar{
+    background-image: url(../img/bem-estar.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: -23em;
+    height: 350px;
+}
+#topo-bem-estar .container .row{
+    height: 350px;     
+}
+.bkg{
+    background-color: rgba(0, 0, 0, .3);
+}
+
+/* Notícias Principais */
+#noticias-principais-bem-estar{
+    height: 400px;
+}
+#noticias-principais-bem-estar .img-fluid{
+    height: 350px;
+    width: 100%;
+}
+.carousel-caption{
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, .5);
+    background-size: cover;
+    padding-top: 12px;
+    padding-bottom: 4px;
+    
+}
+.texto-visualizados{
+    font-size: 23px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #66bbcd;
+}
+
+/* Artigos e Notícias Internas */
+.img-noticia{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+}
+.img-noticia1{
+    background-image: url(../img/img-bem-estar/img-noticia1/meditacao.jpg);
+    background-position-y: -1.5em;
+}
+.img-noticia2{
+    background-image: url(../img/img-bem-estar/img-noticia2/familia.jpg);
+    background-position-y: -17.5em;
+}
+.img-noticia3{
+    background-image: url(../img/img-bem-estar/img-noticia3/compras.jpg);
+    background-position-y: -3.5em;
+}
+.img-noticia4{
+    background-image: url(../img/img-bem-estar/img-noticia4/selfie.jpg);
+    background-position-y: -3.5em;
+}
+.img-noticia5{
+    background-image: url(../img/img-bem-estar/img-noticia5/estresse.jpg);
+    background-position-y: -3.5em;
+}
+.img-noticia6{
+    background-image: url(../img/img-bem-estar/img-noticia6/mind.jpg);
+    background-position-y: -3.5em;
+}
+.img-noticia7{
+    background-image: url(../img/img-bem-estar/img-noticia7/feliz.jpg);
+    background-position-y: -3.5em;
+}
+.img-noticia8{
+    background-image: url(../img/img-bem-estar/img-noticia8/flores.jpg);
+    background-position-y: -4.5em;
+}

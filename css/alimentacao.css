@@ -1,0 +1,75 @@
+/* Topo Alimentação */
+
+#topo-alimentacao{
+    background-image: url(../img/alimentacao.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: -0.5em;
+    height: 350px;
+}
+#topo-alimentacao .container .row{
+    height: 350px;  
+}
+.bkg{
+    background-color: rgba(0, 0, 0, .3);
+}
+
+/* Notícias Principais */
+#noticias-principais-alimentacao{
+    height: 400px;
+}
+#noticias-principais-alimentacao .img-fluid{
+    height: 350px;
+    width: 100%;
+}
+.carousel-caption{
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, .5);
+    background-size: cover;
+    padding-top: 12px;
+    padding-bottom: 4px;
+    
+}
+.texto-visualizados{
+    font-size: 23px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #66bbcd;
+}
+.img-noticia{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+}
+.img-noticia1{
+    background-image: url(../img/img-alimentacao/img-noticia1/suco-verde.jpg);
+    background-position-y: -4.5em;
+}
+.img-noticia2{
+    background-image: url(../img/img-alimentacao/img-noticia2/lactose.jpg);
+    background-position-y: -7.5em;
+}
+.img-noticia3{
+    background-image: url(../img/img-alimentacao/img-noticia3/fibras.jpg);
+    background-position-y: -3.5em;
+}
+.img-noticia4{
+    background-image: url(../img/img-alimentacao/img-noticia4/coco.jpg);
+    background-position-y: -6.5em;
+}
+.img-noticia5{
+    background-image: url(../img/img-alimentacao/img-noticia5/suplementos.jpg);
+    background-position-y: -6.5em;
+}
+.img-noticia6{
+    background-image: url(../img/img-alimentacao/img-noticia6/brownie.jpg);
+    background-position-y: -3.5em;
+}
+.img-noticia7{
+    background-image: url(../img/img-alimentacao/img-noticia7/abacate.jpg);
+    background-position-y: -7.5em;
+}
+.img-noticia8{
+    background-image: url(../img/img-alimentacao/img-noticia8/salada.jpg);
+    background-position-y: -3.5em;
+}
