@@ -1,28 +1,28 @@
 let calcularIMC=()=>{
     
-let altura = parseFloat(document.getElementById("altura").value);
-let peso = parseFloat(document.getElementById("peso").value);
+    let altura = parseFloat(document.getElementById("altura").value);
+    let peso = parseFloat(document.getElementById("peso").value);
 
-altura = altura/100;
+    altura = altura/100;
 
-let M = peso / (altura * altura)
-let classificacao = null
+    let M = peso / (altura * altura)
+    let classificacao = ''
 
-if(M <= 18.49){
-    classificacao = 'Baixo peso';
-}
-else if(M >= 18.50 && M <= 24.99){
-    classificacao = 'Peso normal';
-}
-else{
-    classificacao = 'Sobrepeso';
-}
+    if(M <= 18.49){
+        classificacao = 'Baixo peso';
+    }
+    else if(M >= 18.50 && M <= 24.99){
+        classificacao = 'Peso normal';
+    }
+    else{
+        classificacao = 'Sobrepeso';
+    }
 
-alert(`Você possui índice de massa corporal igual a ${Math.round(M)}, sendo classificado como: ${classificacao}`);
+    alert(`Você possui índice de massa corporal igual a ${Math.round(M)}, sendo classificado como: ${classificacao}`);
 
 
-document.getElementById("altura").value = '';
-document.getElementById("peso").value = '';
+    document.getElementById("altura").value = '';
+    document.getElementById("peso").value = '';
 }
 
 
